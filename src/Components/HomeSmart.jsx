@@ -11,7 +11,7 @@ function HomeSmart() {
                                     <div />
                                 </div>
                                 <h3 className="text-[14px] lg:text-[20px] open-sans mt-2">LOCALLY OWNED AND OPERATED</h3>
-                                <p className=" smart-p text-[12px] lg:text-[14px] max-w-[777px] mt-2 open-sans">We have a full staff of designers for both kitchen and bath design. Because we are locally owned and operated, we know the area and understand local preferences. All of our product and services are selected with the needs and tastes of the local community in mind. We are here to help you today, and we will be here in the future, when you may need us again.</p>
+                                <p className=" smart-p text-[12px] lg:text-[14px] max-w-[727px] mt-2 open-sans">We have a full staff of designers for both kitchen and bath design. Because we are locally owned and operated, we know the area and understand local preferences. All of our product and services are selected with the needs and tastes of the local community in mind. We are here to help you today, and we will be here in the future, when you may need us again.</p>
                             </div>
                             <div className="flex justify-center md:block">
                                 <button className="md:absolute text-center font-bold  smart-button text-white text-[12px] md:text-[18px] px-2 open-sans bg-[#FE7721] rounded-full py-4 mt-3 tracking-wide md:mt-0"><p className="flex justify-center items-center space-x-2"><span>Explore product</span> <img className="w-4" src="/arrowr.svg" alt="" /></p></button>
