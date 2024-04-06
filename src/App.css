@@ -36,8 +36,14 @@
   }
 }
 
+
+
 @media screen and (max-width: 1534px) {
   .smart-button {
+    bottom: -95px !important;
+    width: 272px !important;
+  }
+  .smart-button2 {
     bottom: -95px !important;
     width: 272px !important;
   }
@@ -45,6 +51,12 @@
 
 @media screen and (max-width: 1280px) {
   .smart-button {
+    bottom: -70px !important;
+    width: 222px !important;
+    font-size: 13px !important;
+    margin-left: -10px !important;
+  }
+  .smart-button2 {
     bottom: -70px !important;
     width: 222px !important;
     font-size: 13px !important;
@@ -68,9 +80,36 @@
     width: 222px !important;
     font-size: 12px !important;
   }
+  .smart-button2 {
+    position: none;
+    bottom: -65px !important;
+    width: 222px !important;
+    font-size: 12px !important;
+  }
 }
 
 .smart-button {
   bottom: -130px;
   width: 324px;
+}
+
+.smart-button2 {
+  bottom: -130px;
+  width: 324px;
+}
+
+.smart-bg2 {
+  background-image: url("../public/15.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 1022px) {
+  .smart-bg2 {
+    background-image: none;
+    background-color: #faffe9; /* Hide the background image on small screens */
+    border-radius: 30px;
+  }
 }
