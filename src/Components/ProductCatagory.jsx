@@ -1,7 +1,4 @@
-import React from 'react';
-import { FaCartPlus } from 'react-icons/fa'; // Importing an icon from react-icons library
 
-// Define the array containing product information
 const products = [
     {
         id: 1,

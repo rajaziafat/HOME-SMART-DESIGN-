@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Banner() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -53,12 +53,12 @@ function Banner() {
                             />
                             <div className='container mx-auto px-6 md:px-0'>
                                 <div className="absolute bottom-24 lg:-bottom-24  z-50  transform  -translate-y-1/2  text-white">
-                                    <h1 className="text-[40px] md:text-[64px] max-w-[800px] lg:text-[85px] font-semibold open-sans leading-[82px]  md:leading-[144px]  tracking-wide">Get Help Finding <br />
+                                    <h1 className="text-[40px] md:text-[64px] max-w-[1200px] lg:text-[85px] font-semibold open-sans leading-[82px]  md:leading-[144px]  tracking-wide">Get Help Finding <br />
                                         Your Perfect Shade</h1>
 
                                     <div className="flex items-center  mt-8 space-x-4">
-                                        <button className="block text-white text-[14px] md:text-[18px] md:w-[394px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Request A Consultation</button>
-                                    </div>
+                                        <button className="block text-white text-[14px] px-2 md:text-[18px] md:w-[394px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Request A Consultation</button>
+                                    </div> 
                                 </div>
                             </div>
                         </div>

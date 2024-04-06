@@ -4,7 +4,7 @@ import Score from './Pages/Score';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Bar from './Components/Bar';
-
+import './App.css'
 function App() {
     return (
         <Router>
