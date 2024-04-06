@@ -38,7 +38,7 @@ function Shades() {
                         </div>
                         <p className="text-[14px] open-sans text-center  mt-4"> *Purchase must include PowerView® Automation</p>
                         <div className="flex items-center justify-center mt-8 space-x-4">
-                            <button className="block text-white text-[12px] md:text-[18px] px-2 md:w-[304px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">More About Us</button>
+                            <button className="block text-white text-[12px] md:text-[18px] px-2 w-[280px] md:w-[304px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">More About Us</button>
                         </div>
                     </div>
                     <div className=" col-span-6  lg:col-span-4 flex justify-start lg:justify-center text-center">

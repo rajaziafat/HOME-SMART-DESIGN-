@@ -34,7 +34,7 @@ function Banner() {
     return (
         <>
             <div className="relative w-full">
-                <div className="relative h-[761px]">
+                <div className="relative h-[540px] md:h-[761px]">
                     {/* Slides */}
                     {[...Array(numSlides)].map((_, index) => (
                         <div
@@ -48,16 +48,16 @@ function Banner() {
                         >
                             <img
                                 src={slideImages[index]} // Use the image URL from the array
-                                className="absolute object-cover lg:object-fill  h-[761px]  w-full top-0 left-0"
+                                className="absolute object-cover lg:object-fill  h-[540px] md:h-[761px]  w-full top-0 left-0"
                                 alt={`Slide ${index + 1}`}
                             />
                             <div className='container mx-auto px-6 '>
-                                <div className="absolute bottom-24 lg:-bottom-24  z-50  transform  -translate-y-1/2  text-white">
-                                    <h1 className="text-[40px] md:text-[64px] max-w-[1200px] lg:text-[85px] font-semibold open-sans leading-[82px]  md:leading-[144px]  tracking-wide">Get Help Finding <br />
+                                <div className="absolute bottom-0 lg:-bottom-24  z-50  transform  -translate-y-1/2  text-white">
+                                    <h1 className="text-[32px] md:text-[64px] max-w-[1200px] lg:text-[85px] font-semibold open-sans leading-[82px]  md:leading-[144px]  tracking-wide">Get Help Finding <br />
                                         Your Perfect Shade</h1>
 
                                     <div className="flex items-center  mt-8 space-x-4">
-                                        <button className="block text-white text-[14px] px-2 md:text-[18px] md:w-[394px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Request A Consultation</button>
+                                        <button className="block text-white text-[14px] px-2 md:text-[18px] w-[280px] md:w-[394px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Request A Consultation</button>
                                     </div> 
                                 </div>
                             </div>
