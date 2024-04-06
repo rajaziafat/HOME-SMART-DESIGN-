@@ -9,7 +9,7 @@ function Bar() {
 
     return (
         <div className="bg-[#F6EEE3] py-2 px-2 hidden lg:block">
-            <div className="container mx-auto px-6 md:px-0 flex justify-between items-center ">
+            <div className="container mx-auto px-6  flex justify-between items-center ">
                 <div className="flex space-x-4">
                     <button className="bg-[#FE7721] text-white px-2 py-0.5 font-semibold text-[14px] rounded-md">
                         REQUEST A CONSULTATION

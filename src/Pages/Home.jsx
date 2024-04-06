@@ -1,4 +1,5 @@
 import Banner from "../Components/Banner"
+import HomeSmart from "../Components/HomeSmart"
 import ProductCatagory from "../Components/ProductCatagory"
 import Shades from "../Components/Shades"
 
@@ -8,6 +9,7 @@ function Home() {
       <Banner />
       <ProductCatagory/>
       <Shades/>
+      <HomeSmart/>
     </div>
   )
 }

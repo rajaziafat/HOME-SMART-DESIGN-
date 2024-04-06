@@ -51,7 +51,7 @@ function Banner() {
                                 className="absolute object-cover lg:object-fill  h-[761px]  w-full top-0 left-0"
                                 alt={`Slide ${index + 1}`}
                             />
-                            <div className='container mx-auto px-6 md:px-0'>
+                            <div className='container mx-auto px-6 '>
                                 <div className="absolute bottom-24 lg:-bottom-24  z-50  transform  -translate-y-1/2  text-white">
                                     <h1 className="text-[40px] md:text-[64px] max-w-[1200px] lg:text-[85px] font-semibold open-sans leading-[82px]  md:leading-[144px]  tracking-wide">Get Help Finding <br />
                                         Your Perfect Shade</h1>

@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <>
       <nav className="bg-white border-gray-200 open-sans">
-        <div className="container px-6 md:px-0 flex flex-wrap items-center justify-between mx-auto ">
+        <div className="container px-6  flex flex-wrap items-center justify-between mx-auto ">
           <Link
             to='/'
             className="flex items-center space-x-3"

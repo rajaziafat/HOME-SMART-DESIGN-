@@ -11,7 +11,7 @@ function Shades() {
                 </div>
 
 
-                <div className="grid grid-cols-12 mt-10  items-center justify-center gap-4">
+                <div className="grid grid-cols-12   items-center justify-center gap-4">
                     <div className=" col-span-6  lg:col-span-4 flex justify-end lg:justify-center text-center">
                         <div>
                             <div>
@@ -30,7 +30,7 @@ function Shades() {
                             <div></div>
                         </div>
                     </div>
-                    <div className=" col-span-12 lg:col-span-4  order-last lg:order-none mt-4">
+                    <div className=" col-span-12 lg:col-span-4  order-last lg:order-none mt-24">
 
                         <div className="flex justify-center">
                             <img src="/13.png" alt="" />

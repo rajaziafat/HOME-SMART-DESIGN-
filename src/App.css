@@ -4,7 +4,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.urbanist{
+.urbanist {
   font-family: "Urbanist", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -18,4 +18,59 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.smart-bg {
+  background-image: url("../public/14.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 1022px) {
+  .smart-bg {
+    background-image: none;
+    background-color: #faffe9; /* Hide the background image on small screens */
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 1534px) {
+  .smart-button {
+    bottom: -95px !important;
+    width: 272px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .smart-button {
+    bottom: -70px !important;
+    width: 222px !important;
+    font-size: 13px !important;
+    margin-left: -10px !important;
+  }
+  .smart-p {
+    font-size: 12px !important;
+  }
+  .smart-h {
+    font-size: 32px !important;
+  }
+}
+
+@media screen and (max-width: 1022px) {
+  .smart-p {
+    font-size: 14px !important;
+  }
+  .smart-button {
+    position: none;
+    bottom: -65px !important;
+    width: 222px !important;
+    font-size: 12px !important;
+  }
+}
+
+.smart-button {
+  bottom: -130px;
+  width: 324px;
 }
