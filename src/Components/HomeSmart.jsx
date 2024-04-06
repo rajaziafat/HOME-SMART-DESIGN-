@@ -35,7 +35,7 @@ function HomeSmart() {
                 <div className="grid grid-cols-12 z-40 gap-4">
                    
 
-                    <div className="col-span-12 lg:col-span-4 flex md:mt-10 order-first md:mb-10 lg:order-none">
+                    <div className="col-span-12 lg:col-span-4 ml-4 flex md:mt-10 order-first md:mb-10 lg:order-none">
                         <img className="w-full lg:w-[450px] rounded-2xl" src="/144.png" alt="" />
                     </div>
 
