@@ -236,7 +236,7 @@ function HomeSmart() {
 
 
 
-                            <div className="col-span-12 lg:col-span-12   md:mr-4 md:mt-5   px-4 flex justify-center md:justify-start   mb-12 lg:mb-20 xl:mb-64 sec54 ">
+                            <div className="col-span-12 lg:col-span-12   md:ml-4 md:mt-5   px-4 flex justify-center md:justify-start   mb-12 lg:mb-20 xl:mb-64 sec54 ">
                                 <div className="bg-white px-4  py-2 w-full md:max-w-[404px] rounded-xl">
                                     <h3 className="text-[12px]  lg:text-[16px]  font-semibold">Hunter Douglas Portfolio Brochure</h3>
                                     <p className="text-[10px] lg:text-[14px] xl:text-[16px]">Enjoy 65 pages of fresh takes, creative ideas and smart solutions for your windows with our online brochure. It's
@@ -247,7 +247,7 @@ function HomeSmart() {
 
                             </div>
                             <div className=" col-span-12 flex justify-center md:justify-start ">
-                                <button className=" text-center font-bold  smart-button5 text-white text-[12px] md:text-[18px] px-2 open-sans bg-[#FE7721] rounded-full py-4  tracking-wide "><p className="flex justify-center items-center space-x-2"><span>Request a consultation</span> <img className="w-4" src="/arrowr.svg" alt="" /></p></button>
+                                <button className=" text-center font-bold  smart-button6 text-white text-[12px] md:text-[18px] px-2 open-sans bg-[#FE7721] rounded-full py-4  tracking-wide "><p className="flex justify-center items-center space-x-2"><span>Request a consultation</span> <img className="w-4" src="/arrowr.svg" alt="" /></p></button>
 
                             </div>
 
