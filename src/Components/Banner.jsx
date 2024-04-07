@@ -57,8 +57,8 @@ function Banner() {
                                         Your Perfect Shade</h1>
 
                                     <div className="flex items-center  mt-8 space-x-4">
-                                        <button className="block text-white text-[14px] px-2 md:text-[18px] w-[280px] md:w-[394px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Request A Consultation</button>
-                                    </div> 
+                                        <button className="block text-white text-[14px] px-2 md:text-[8px] w-[280px] md:w-[394px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Request A Consultation</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
