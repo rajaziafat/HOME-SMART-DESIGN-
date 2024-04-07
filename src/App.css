@@ -307,3 +307,20 @@
   background-repeat: no-repeat;
 
 }
+
+
+.homeconsultation-bg{
+  background-image: url("../public/187.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.sec43-bg {
+
+  background-image: url("../public/125.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

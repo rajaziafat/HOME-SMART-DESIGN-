@@ -1,4 +1,5 @@
 import Banner from "../Components/Banner"
+import HomeConsultation from "../Components/HomeConsultation"
 import HomeSmart from "../Components/HomeSmart"
 import InteriorDesign from "../Components/InteriorDesign"
 import MapSection from "../Components/MapSection"
@@ -14,6 +15,7 @@ function Home() {
       <HomeSmart/>
       <MapSection/>
       <InteriorDesign/>
+      <HomeConsultation/>
     </div>
   )
 }
