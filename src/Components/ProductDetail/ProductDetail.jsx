@@ -80,8 +80,15 @@ function ProductDetail() {
                     <p className='max-w-[550px]'>Soft fabric vanes whose shape changes on demand. Controlling light in a magical new way.</p>
 
                     <div className="flex items-center justify-start mt-8 space-x-4">
-                            <button className="block text-white text-[12px] md:text-[18px] px-2 w-[280px] md:w-[304px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Add to basket</button>
-                        </div>
+                        <button className="block text-white text-[12px] md:text-[18px] px-2 w-[280px] md:w-[304px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Add to basket</button>
+                    </div>
+
+
+
+                    <div>
+
+                        
+                    </div>
 
                 </div>
             </div>
