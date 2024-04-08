@@ -24,7 +24,7 @@ function ProductDetail() {
 
     return (
         <div className='container mx-auto px-6 mt-10 md:mt-24'>
-            <div className='grid grid-cols-12'>
+            <div className='grid grid-cols-12 gap-4'>
                 <div className='col-span-12 lg:col-span-7'>
                     <div className='relative'>
                         {/* Main image */}
@@ -60,19 +60,30 @@ function ProductDetail() {
 
                     </div>
 
-                    <p className="text-center mt-5">Lyrical, PR70-011</p>
+                    <p className="text-center mt-4 font-semibold">Lyrical, PR70-011</p>
 
-                    <div className=' flex justify-center items-center space-x-4 mt-5'>
-                    {/* Content for the right side */}
-                    <button className='px-2 py-2 border border-[#FE7721] rounded-full' onClick={handlePrev}><img src="/oarrowl.png" alt="" /></button>
+                    <div className=' flex justify-center items-center space-x-4 mt-3'>
+                        {/* Content for the right side */}
+                        <button className='px-2 py-2 border border-[#FE7721] rounded-full' onClick={handlePrev}><img src="/oarrowl.png" alt="" /></button>
 
-                    <p>Fabric 1/11</p>
+                        <p>Fabric 1/11</p>
 
-                    <button className='px-2 py-2 border bg-[#FE7721] rounded-full' onClick={handleNext}><img src="/oarrowr.png" alt="" /></button>
+                        <button className='px-2 py-2 border bg-[#FE7721] rounded-full' onClick={handleNext}><img src="/oarrowr.png" alt="" /></button>
+                    </div>
                 </div>
-                </div>
 
-             
+                <div className='col-span-12 md:col-span-5'>
+                    <div className='flex items-center space-x-2 text-center'>
+                        <p className="text-[28px]  md:text-[32px] max-w-[1080px] lg:text-[44px] urbanist   "> Pirouette ® <span className='font-bold urbanist'>sheer shades </span> </p>
+                        <div />
+                    </div>
+                    <p className='max-w-[550px]'>Soft fabric vanes whose shape changes on demand. Controlling light in a magical new way.</p>
+
+                    <div className="flex items-center justify-start mt-8 space-x-4">
+                            <button className="block text-white text-[12px] md:text-[18px] px-2 w-[280px] md:w-[304px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Add to basket</button>
+                        </div>
+
+                </div>
             </div>
         </div>
     );
