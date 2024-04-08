@@ -6,15 +6,18 @@ import Bar from './Components/Bar';
 import './App.css'
 import ConsultationPage from './Pages/ConsultationPage';
 import ProductDetailspage from './Pages/ProductDetailspage';
+import Cart from './Components/Cart';
 function App() {
     return (
         <Router>
-            <Bar/>
+            <Bar />
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/consultation" element={<ConsultationPage />} />
                 <Route path="/product-detail" element={<ProductDetailspage />} />
+                <Route path="/cart" element={<Cart />} />
+
 
             </Routes>
             <Footer />

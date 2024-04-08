@@ -207,7 +207,7 @@ function Navbar() {
                   href="#"
                   className="block py-2 px-3 text-[#4A4A4A] font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0"
                 >
-                                  <>
+                  <>
                     <div className="relative">
                       <button
                         id="dropdownDefaultButton"
@@ -215,9 +215,9 @@ function Navbar() {
                         className="font-semibold text-[#4A4A4A] open-sans bg-transparent hover:bg-transparent focus:ring-none focus:outline-none focus:ring-none  inline-flex items-center "
                         type="button"
                       >
-                       Inspiration & Solutions
-                       
-                                                         <svg
+                        Inspiration & Solutions
+
+                        <svg
                           className={`w-2.5 h-2.5 mt-0.5 ms-3 ${isInspirationOpen ? 'transform rotate-180' : ''}`}
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
