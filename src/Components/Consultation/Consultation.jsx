@@ -1,13 +1,13 @@
-import Chapta from "./Chapta"
+import Chapta from "../Chapta"
 
-function HomeConsultation() {
+function Consultation() {
     return (
-        <div className="homeconsultation-bg py-16 mt-10 md:mt-24 px-4">
+        <div className="bg-[#FFF3EC] py-16  px-4">
             <div className="'   mx-auto max-w-2xl px-4  sm:px-6 mt-24  xl:max-w-7xl xl:px-8  bg-white rounded-2xl py-12">
                 <div className='flex justify-center '>
                     <div className='flex items-center space-x-2 text-center'>
                         <div>
-                            <p className="text-[28px]  md:text-[32px] max-w-[1080px] xl:text-[44px] urbanist font-semibold  "> Request a Consultation</p>
+                            <p className="text-[28px]  md:text-[32px] max-w-[1080px] xl:text-[44px] urbanist  font-semibold  "> Request a Consultation</p>
                             <p> We re here to help and answer any questions you may have.</p>
                         </div>
                         <div />
@@ -181,4 +181,4 @@ function HomeConsultation() {
     )
 }
 
-export default HomeConsultation
+export default Consultation
