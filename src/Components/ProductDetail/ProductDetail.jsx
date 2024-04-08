@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function ProductDetail() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -21,6 +21,24 @@ function ProductDetail() {
     const handleDotClick = (index) => {
         setCurrentSlide(index);
     };
+
+
+    const [isContentVisible, setIsContentVisible] = useState(false);
+    const [isContentVisible2, setIsContentVisible2] = useState(false);
+    const [isContentVisible3, setIsContentVisible3] = useState(false);
+
+    const toggleContent = () => {
+        setIsContentVisible(!isContentVisible);
+    };
+
+    const toggleContent2 = () => {
+        setIsContentVisible2(!isContentVisible2);
+    };
+    const toggleContent3 = () => {
+        setIsContentVisible3(!isContentVisible3);
+    };
+
+
 
     return (
         <div className='container mx-auto px-6 mt-10 md:mt-24'>
@@ -83,12 +101,113 @@ function ProductDetail() {
                         <button className="block text-white text-[12px] md:text-[18px] px-2 w-[280px] md:w-[304px] font-bold open-sans bg-[#FE7721] rounded-full   py-4  mt-3 tracking-wide md:mt-0">Add to basket</button>
                     </div>
 
+                    <div className='mt-10 flex justify-between items-center border-t py-4'>
+                        <h3 className='open-sans font-semibold text-[18px]'>
+                            Key Features & Enhancements
+                        </h3>
+                        <img
+                            className='w-4 h-4 cursor-pointer'
+                            src={isContentVisible ? "/arrowup.png" : "/arrowdown.png"}
+                            alt=""
+                            onClick={toggleContent}
+                        />
 
-
-                    <div>
-
-                        
                     </div>
+
+                    {isContentVisible && (
+                        <div>
+                            <h4 className='text-[#465062] mt-5'>
+                                Alter light in a space with the sculptural design of Pirouette ® Window Shadings.
+                            </h4>
+
+                            <ul className='mt-5 text-[#465062] '>
+                                <li className='flex items-center '><img className='mr-2' src="/check.png" alt="" />Light Control and Privacy—with our unique fabric vanes and a single back sheer.</li>
+                                <li className='flex items-center mt-4'><img className='mr-2' src="/check.png" alt="" />UV Protection—keeps furniture and flooring from fading.</li>
+                                <li className='flex items-center mt-4'><img className='mr-2' src="/check.png" alt="" />Beautiful Fabrics—luxurious, high-quality selection.</li>
+
+                                <li className='flex items-center mt-4'><img className='mr-2' src="/check.png" alt="" />Vane Sizes—4" or 5".</li>
+
+                                <li className='flex items-center mt-4 '><img className='mr-2' src="/check.png" alt="" /><p>A Coordinated Look—with our <b > Whole House Solution</b> ™ for horizontal and vertical window treatments.</p></li>
+
+
+                            </ul>
+
+
+                            <h4 className=' mt-5 font-semibold'>
+                                Optional Enhancements
+                            </h4>
+
+                            <p className='py-2'>Superior View-Through—with <b>ClearView®</b> sheers.</p>
+                            <p className='py-2'>Exclusive Fabrics—from The  <b>Alustra®</b> Collection.</p>
+
+                        </div>
+                    )}
+
+
+                    <div className='mt-4 flex justify-between items-center border-t py-4'>
+                        <h3 className='open-sans font-semibold text-[18px]'>
+                            Control Options                        </h3>
+                        <img
+                            className='w-4 h-4 cursor-pointer'
+                            src={isContentVisible2 ? "/arrowup.png" : "/arrowdown.png"}
+                            alt=""
+                            onClick={toggleContent2}
+                        />
+
+                    </div>
+
+                    {isContentVisible2 && (
+                        <div>
+                            <h4 className='text-[#465062]'>
+                                Control Options
+                            </h4>
+
+                            <ul className='mt-4 text-[#465062] '>
+                                <li className='flex items-center '><img className='mr-2' src="/check.png" alt="" />Light Control and Privacy—with our unique fabric vanes and a single back sheer.</li>
+                                <li className='flex items-center mt-3'><img className='mr-2' src="/check.png" alt="" />UV Protection—keeps furniture and flooring from fading.</li>
+                                <li className='flex items-center mt-3'><img className='mr-2' src="/check.png" alt="" />Beautiful Fabrics—luxurious, high-quality selection.</li>
+
+                                <li className='flex items-center mt-3'><img className='mr-2' src="/check.png" alt="" />Vane Sizes—4" or 5".</li>
+
+                                <li className='flex items-center mt-3 '><img className='mr-2' src="/check.png" alt="" /><p>A Coordinated Look—with our <b > Whole House Solution</b> ™ for horizontal and vertical window treatments.</p></li>
+
+
+                            </ul>
+                        </div>
+                    )}
+
+
+                    <div className='mt-4 flex justify-between items-center border-t py-4'>
+                        <h3 className='open-sans font-semibold text-[18px]'>
+                        Specialty Shapes                  </h3>
+                        <img
+                            className='w-4 h-4 cursor-pointer'
+                            src={isContentVisible3 ? "/arrowup.png" : "/arrowdown.png"}
+                            alt=""
+                            onClick={toggleContent3}
+                        />
+
+                    </div>
+
+                    {isContentVisible3 && (
+                        <div>
+                            <h4 className='text-[#465062]'>
+                                Control Options
+                            </h4>
+
+                            <ul className='mt-4 text-[#465062] '>
+                                <li className='flex items-center '><img className='mr-2' src="/check.png" alt="" />Light Control and Privacy—with our unique fabric vanes and a single back sheer.</li>
+                                <li className='flex items-center mt-3'><img className='mr-2' src="/check.png" alt="" />UV Protection—keeps furniture and flooring from fading.</li>
+                                <li className='flex items-center mt-3'><img className='mr-2' src="/check.png" alt="" />Beautiful Fabrics—luxurious, high-quality selection.</li>
+
+                                <li className='flex items-center mt-3'><img className='mr-2' src="/check.png" alt="" />Vane Sizes—4" or 5".</li>
+
+                                <li className='flex items-center mt-3 '><img className='mr-2' src="/check.png" alt="" /><p>A Coordinated Look—with our <b > Whole House Solution</b> ™ for horizontal and vertical window treatments.</p></li>
+
+
+                            </ul>
+                        </div>
+                    )}
 
                 </div>
             </div>
