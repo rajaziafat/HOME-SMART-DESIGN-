@@ -324,3 +324,19 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* App.css */
+.custom-label-color {
+  color: #FE7721;
+}
+
+.custom-radio {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Customize checked state */
+.custom-radio:checked + .custom-label-color::before {
+  background-color: #FE7721; /* Change the background color to match the label color */
+  border-color: #FE7721; /* Change the border color to match the label color */
+}

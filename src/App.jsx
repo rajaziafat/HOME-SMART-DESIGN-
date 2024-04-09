@@ -6,7 +6,7 @@ import Bar from './Components/Bar';
 import './App.css'
 import ConsultationPage from './Pages/ConsultationPage';
 import ProductDetailspage from './Pages/ProductDetailspage';
-import Cart from './Components/Cart';
+import Cartpage from './Pages/Cartpage';
 function App() {
     return (
         <Router>
@@ -16,7 +16,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/consultation" element={<ConsultationPage />} />
                 <Route path="/product-detail" element={<ProductDetailspage />} />
-                <Route path="/cart" element={<Cart />} />
+                <Route path="/cart" element={<Cartpage />} />
 
 
             </Routes>
