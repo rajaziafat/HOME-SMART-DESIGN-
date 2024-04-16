@@ -29,7 +29,7 @@ function Cart() {
                         <div className='flex flex-col md:flex-row items-center space-x-4'>
                             <img src="/c1.png" alt="" />
                             <div className=''>
-                                <h2 className='text-[22px] font-bold open-sans' >Lyrical, PR70-011</h2>
+                                <h2 className='text-[22px] font-bold open-sans mt-5 md:mt-0' >Lyrical, PR70-011</h2>
                                 <p className='font-bold text-[#FE7721] mt-5'>$120.00</p>
                                 <p className='text[#465062] mt-1 max-w-[480px]'>Soft fabric vanes whose shape changes on demand. Controlling light in a magical new way.</p>
 
@@ -161,7 +161,7 @@ function Cart() {
                         <div className='flex flex-col md:flex-row items-center space-x-4'>
                             <img src="/c1.png" alt="" />
                             <div className=''>
-                                <h2 className='text-[22px] font-bold open-sans' >Lyrical, PR70-011</h2>
+                                <h2 className='text-[22px] font-bold open-sans mt-5 md:mt-0' >Lyrical, PR70-011</h2>
                                 <p className='font-bold text-[#FE7721] mt-5'>$120.00</p>
                                 <p className='text[#465062] mt-1 max-w-[480px]'>Soft fabric vanes whose shape changes on demand. Controlling light in a magical new way.</p>
 
@@ -285,12 +285,12 @@ function Cart() {
                     </div>
                 </div>
 
-                <div className='col-span-12 md:col-span-5'>
-                    <h2 className='text-[22px] md:text-[28px] open-sans  lg:text-[38px] bold'>Summary</h2>
+                <div className='col-span-12 md:col-span-5 mt-5 md:mt-0'>
+                    <h2 className='text-[28px] md:text-[28px] open-sans  lg:text-[38px] bold'>Summary</h2>
 
 
 
-                    <div className='mt-10'>
+                    <div className='mt-5 md:mt-10'>
 
                         <div className='border-b  flex justify-between py-4'>
                             <p className='text-[22px] font-bold open-sans'>
@@ -369,7 +369,7 @@ function Cart() {
                                 <label htmlFor="" className="ml-2 text-[18px] open-sans font-semibold text-black">Credit / Debit Card</label>
                             </div>
 
-                            <div className='flex space-x-4 items-center'>
+                            <div className='md:flex  md:space-x-4 items-center'>
                                 <div className="mb-4">
                                     <label
                                         htmlFor="default-input"

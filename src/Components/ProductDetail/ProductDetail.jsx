@@ -43,7 +43,7 @@ function ProductDetail() {
     return (
         <div className='container mx-auto px-6 mt-10 md:mt-24'>
             <div className='grid grid-cols-12 gap-4'>
-                <div className='col-span-12 lg:col-span-7'>
+                <div className='col-span-12 lg:col-span-6'>
                     <div className='relative'>
                         {/* Main image */}
                         <img className='w-full' src={images[currentSlide].src} alt={images[currentSlide].alt} />
@@ -53,7 +53,7 @@ function ProductDetail() {
                             {images.map((image, index) => (
                                 <img
                                     key={index}
-                                    className='w-14 lg:w-32 hidden md:block cursor-pointer'
+                                    className='w-32 hidden md:block cursor-pointer'
                                     src={image.src}
                                     alt={image.alt}
                                     onClick={() => handleDotClick(index)}
@@ -68,7 +68,7 @@ function ProductDetail() {
                                     key={index}
                                     src={currentSlide === index ? 'dadot.png' : 'ddot.png'}
                                     alt={`Dot ${index}`}
-                                    className={`h-4 w-4 ${currentSlide === index ? 'w-8 h-8' : 'w-8 h-8'}`}
+                                    className={`h-4 w-4 ${currentSlide === index ? 'w-6 h-6' : 'w-6 h-6'}`}
                                     onClick={() => handleDotClick(index)}
                                     style={{ cursor: 'pointer' }}
                                 />
@@ -90,7 +90,7 @@ function ProductDetail() {
                     </div>
                 </div>
 
-                <div className='col-span-12 md:col-span-5'>
+                <div className='col-span-12 md:col-span-6'>
                     <div className='flex items-center space-x-2 text-center'>
                         <p className="text-[28px]  md:text-[32px] max-w-[1080px] lg:text-[44px] urbanist   "> Pirouette ® <span className='font-bold urbanist'>sheer shades </span> </p>
                         <div />
